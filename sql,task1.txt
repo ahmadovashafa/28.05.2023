@@ -1,7 +1,7 @@
 #28.05.2023 #5
 --task1 
 --inner join,left join,right join,full outer,cross join
---inner joinle 2 cədvəlin ortaq məlumatları tapılır. Left joinlə soldakı cədvəlin bütün məlumatları götürülür və ona uyğun olaraq sağ cədvəldən məlumatlarla birləşir əgər ortaq dəyər yoxdursa null olur. Right joində   sağdakı  cədvəlin bütün məlumatları götürülür və ona uyğun olaraq sol cədvəldən məlumatlarla birləşir əgər ortaq dəyər yoxdursa null olur. Full outer joində 2 cədvəlin bütün məlumatları bir cədvəldə toplanır. Cross joində  birinci cədvəlin hər sətirinin ikinci cədvəlin hər sətiri ilə qoşalaşmış birləşməsini yaratmaq üçün istifadə olunur. Çoxluq şəklində məlumat yaradılması üçün istifadə edilir.
+--inner joinle 2 cədvəlin ortaq məlumatları tapılır. Left joinlə soldakı cədvəlin bütün məlumatları götürülür və ona uyğun olaraq sağ cədvəldən məlumatlarla birləşir əgər ortaq dəyər yoxdursa null olur. Right joində   sağdakı  cədvəlin bütün məlumatları götürülür və ona uyğun olaraq sol cədvəldən məlumatlarla birləşir əgər ortaq dəyər yoxdursa null olur. Full outer joində 2 cədvəlin bütün məlumatları bir cədvəldə toplanır. Cross joində  birinci cədvəlin hər sətirinin ikinci cədvəlin hər sətiri ilə qoşalaşmış birləşməsini yaratmaq üçün istifadə olunur. Çoxluq şəklində məlumat yaradılması üçün istifadə edilir. 
 
 --task 2
 
