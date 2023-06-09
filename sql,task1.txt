@@ -1,0 +1,25 @@
+#28.05.2023 #5
+--task1 
+--inner join,left join,right join,full outer,cross join
+
+--task 2
+select * from employees where  manager_id = 100 AND salary > 10000;
+--task3 
+
+select job_title, avg(salary) as avg_salary
+from sales_data
+group by job_title
+order by  avg_salary desc;
+
+--task 4
+
+select * from employees where last_name like'%S';
+
+--task 5
+
+select department_name, count(e.employees) as num_employees
+from department d
+join employees e
+on d.department_id = e.employee_id
+group by department_name
+having count(*) > 5;
