@@ -1,21 +1,31 @@
 #28.05.2023 #5
 --task1 
 --inner join,left join,right join,full outer,cross join
+--inner joinle 2 cədvəlin ortaq məlumatları tapılır. Left joinlə soldakı cədvəlin bütün məlumatları götürülür və ona uyğun olaraq sağ cədvəldən məlumatlarla birləşir əgər ortaq dəyər yoxdursa null olur. Right joində   sağdakı  cədvəlin bütün məlumatları götürülür və ona uyğun olaraq sol cədvəldən məlumatlarla birləşir əgər ortaq dəyər yoxdursa null olur. Full outer joində 2 cədvəlin bütün məlumatları bir cədvəldə toplanır. Cross joində  birinci cədvəlin hər sətirinin ikinci cədvəlin hər sətiri ilə qoşalaşmış birləşməsini yaratmaq üçün istifadə olunur. Çoxluq şəklində məlumat yaradılması üçün istifadə edilir.
 
 --task 2
+
+--Write a SQL query to fetch the details of employees who are working under manager '100' and earn more than 10000.
+
 select * from employees where  manager_id = 100 AND salary > 10000;
---task3 
+
+--task 1
 
 select job_title, avg(salary) as avg_salary
 from sales_data
 group by job_title
 order by  avg_salary desc;
 
---task 4
+--task 2
+
+--Write a SQL query to fetch the employees whose last name starts with the letter 'S'.
 
 select * from employees where last_name like'%S';
 
---task 5
+--task 3
+
+--Write a SQL query to fetch the departments that have more than five employees.
+
 
 select department_name, count(e.employees) as num_employees
 from department d
